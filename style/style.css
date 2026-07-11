@@ -47,12 +47,22 @@
 
         .link_container{
             display: flex;
-            gap: 20px;
+            gap: 25px;
             list-style: none;
+          
         }
 
 .link_container li{
     cursor: pointer;
+        transition: all 0.3s ease-in-out;
+}
+.link_container li a{
+text-decoration: none;
+ font-size: capitalize;
+}
+.link_container li:hover{
+color: green;
+text-decoration: underline;
 }
       
 
@@ -155,7 +165,7 @@ padding: 0 40px;
     border-radius: 3px;
     padding: 5px;
     box-shadow: rgb(from color r g b);
-
+    border: 1px solid lightgray;
 }
 .deep_card_color{
     background-color: black;
