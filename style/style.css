@@ -16,7 +16,7 @@
             margin: 0 auto;
         }
         .common_btn{
-            background-color: #1D4ED8;
+            background-color: #3365ee;
             color: white;
             padding: 10px 18px;
             border-radius: 6px;
@@ -100,32 +100,82 @@ border: 1px solid red;
 
 
     /* ======================= */
-/* Non section */
+/* spot section */
 /* ======================= */
-#secure_you_spot_container{
-    margin: 120px 0;
-}
 
-.secure_you_spot_content{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
- gap: 20px;
- 
-}
-.spot_card_info{
-  border:2px solid red;
-  padding: 0 60px;
-}
+ #pricing_section{
+    margin-top: 50px;
+    border: 2px solid red
+    ; padding-top: 50px;
+ }
+
 
 .spot_title{
     text-align: center;
-    padding-bottom: 20px;
 }
+
 .spot_title h2{
-    font-size: 50px;
-    line-height:0;
+    font-size: 40px;
+}
+
+.pricing_cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    /* color: gray; */
+}
+
+.pricing_card{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 5px;
+    box-shadow: rgb(from color r g b);
 
 }
+.deep_card_color{
+    background-color: black;
+    color: white;
+}
+
+
+
+.priceing{
+    font-size: 50px;
+    line-height: 0
+}
+
+.text_info{
+    margin-left: 25px;
+}
+.pricing_card ul {
+    color: gray;
+}
+
+.grayline{
+    color: gray !important;
+}
+.out_line_button,.primary{
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.notgray_card li{
+    color: white;
+}
+
+.out_line_button:hover{
+   background-color: rgb(240, 232, 222);
+   transition:  3 ease in out;
+}
+.primary{
+    background-color: rgb(25, 88, 213) ;
+    color: white !important;
+}
+
+/*     foooter ----------  */
 footer{
     background: lightcyan;
     color: whitie;
