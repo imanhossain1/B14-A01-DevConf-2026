@@ -45,7 +45,11 @@
             gap: 20px;
             list-style: none;
         }
- 
+
+.link_container li{
+    cursor: pointer;
+}
+      
 
 /* ======================= */
 /* banner section */
@@ -56,21 +60,20 @@
 /* Meet Our section */
 /* ======================= */
 #meet_speakers_container{
-           border: 1px solid red;
+border: 1px solid red;
 }
 
 .meet_title{
     text-align: center;
     padding: 20px 20px;
+    margin: 10px;
+    font-size: 50px;
 }
 
 .meet_speakers_content{
           display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
-            /* border: 1px solid red; */
-           
- 
 }
 
 .meet_speakers_content div{
@@ -99,3 +102,42 @@
     /* ======================= */
 /* Non section */
 /* ======================= */
+#secure_you_spot_container{
+    margin: 120px 0;
+}
+
+.secure_you_spot_content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+ gap: 20px;
+ 
+}
+.spot_card_info{
+  border:2px solid red;
+  padding: 0 60px;
+}
+
+.spot_title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.spot_title h2{
+    font-size: 50px;
+    line-height:0;
+
+}
+footer{
+    background: lightcyan;
+    color: whitie;
+    padding: 30px;
+}
+.footer_head{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foo_title{
+    text-align: left;
+    padding: 20px;
+}
