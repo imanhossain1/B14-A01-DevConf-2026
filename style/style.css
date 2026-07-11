@@ -18,7 +18,7 @@
         .common_btn{
             background-color: #3365ee;
             color: white;
-            padding: 10px 18px;
+            padding: 10px 30px;
             border-radius: 6px;
             font-size: 20px;
         }
@@ -54,18 +54,48 @@
 /* ======================= */
 /* banner section */
 /* ======================= */
+.banner_area{
+    /* width: 100%; */
+    border: 1px solid green;
+    height: 70vh;;
+    background-image: url("../assets/banner.jpg");
+    background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ object-fit: cover;
 
+}
+.banner_container{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid red;
+}
+.banner_content{
+ color: white;
+}
+.banner_title{
+ font-size: 50px;
+}
+.banner_buttton_container{
+
+}
 
 /* ======================= */
 /* Meet Our section */
 /* ======================= */
 #meet_speakers_container{
 border: 1px solid red;
+padding: 0 40px;
 }
 
 .meet_title{
     text-align: center;
-    padding: 20px 20px;
+    padding: 50px 10px;
     margin: 10px;
     font-size: 50px;
 }
@@ -100,7 +130,7 @@ border: 1px solid red;
 
 
     /* ======================= */
-/* spot section */
+/* spot secure section */
 /* ======================= */
 
  #pricing_section{
@@ -122,7 +152,6 @@ border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
-    /* color: gray; */
 }
 
 .pricing_card{
